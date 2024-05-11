@@ -6,8 +6,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 
-
-app.get("/",(req,res) =>{
+app.get("/api/chat",(req,res) =>{
     res.send("Hello World")
 })
 
