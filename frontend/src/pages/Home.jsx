@@ -1,9 +1,11 @@
 import React from 'react'
+import Login from './Login'
 
 const Home = () => {
   return (
-    <div>
+    <div className='App text-white'>
       Home page
+      <Login/>
     </div>
   )
 }
